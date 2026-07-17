@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Test Cache
+.pytest_cache/
+# Downloaded Hugging Face models
+app/models/distilbert_model/
+app/models/fake_review_distilbert/
+
+
+# Hugging Face downloaded models
+app/models/distilbert_model/
+app/models/distilbert_tokenizer/
+app/models/fake_review_distilbert/
+app/models/fake_review_tokenizer/
+
+# ML models
+app/models/
+
+# Datasets
+app/data/
